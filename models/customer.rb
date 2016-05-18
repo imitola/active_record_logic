@@ -16,7 +16,7 @@ class Customer < ActiveRecord::Base
  # .updated_at
 
  # C - Create
- # R - Read
+ # R - Read  - DONE
  # U - Update
  # D - Delete
 
