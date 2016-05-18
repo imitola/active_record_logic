@@ -2,6 +2,9 @@ class Customer < ActiveRecord::Base
  # This  Customer class (by way of conventions) maps
  # to a customers table in the database
 
+ #
+ belongs_to :province
+
  # Data Validations
 
  validates :email, uniqueness: true, presence: true
@@ -19,9 +22,9 @@ class Customer < ActiveRecord::Base
  # .created_at
  # .updated_at
 
- # C - Create
- # R - Read  - DONE
- # U - Update
+ # C - Create - DONE
+ # R - Read   - DONE
+ # U - Update - DONE
  # D - Delete
 
 end
