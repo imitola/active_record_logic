@@ -1,7 +1,7 @@
 # Load the required gems/libraries.
 require 'active_record'
 require 'logger'
-
+require 'pry'
 # Load all of our ActiveRecord::Base objects.
 #load 'models/category.rb'
 load 'models/customer.rb'

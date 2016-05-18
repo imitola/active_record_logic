@@ -2,7 +2,7 @@ load 'ar.rb'
 
 # Use the Customer class to count the rous in the customers table.
 #
-# number_of_customers = Customer.count
+ # number_of_customers = Customer.count
 #
 # #SELECT COUNT(*) FROM customers;
 #
